@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Blog</title>
+</head>
+<body>
+    <header>        
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="d-inline-block align-text-center m-0 p-0" style="height: 50px;"> Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav></header>
+
+    <main class="mt-5">
+        <div class="container">
+            <div class="row h1 mb-5">
+                <strong>Contact Form</strong>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 bg-secondary rounded px-3 py-5" style="--bs-bg-opacity:0.1">
+                <div class="col-auto">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input id="name" type="text" placeholder="Name" class="form-control">
+                            <label for="name" class="form-label">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input id="email" type="text" placeholder="Email" class="form-control" aria-describedby="emailHelp">
+                            <label for="email" class="form-label">Email</label>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea name="query" id="query" class="form-control" placeholder="Query" style="height: 100px;"></textarea>
+                            <label for="query">Query</label>
+                        </div>
+                        <div class="mb-3 form-check d-flex justify-content-center">
+                            <input type="checkbox" class="form-check-input me-2" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Subscribe to our News-mail</label>
+                        </div>
+                          <button type="submit" class="btn btn-secondary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-auto mt-4 mt-lg-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36530.2350577544!2d74.28116880312774!3d31.476852288483812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1723231258606!5m2!1sen!2s" style="border:0; width:40vw; height: 50vh;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-5">
+        <div class="container-fluid bg-dark text-light pb-3">
+            <div class="row">
+              <div class="col-4">
+                <a class="navbar-brand text-light" href="#"><img src="img/logo.png" alt="" class="d-inline-block align-text-center m-0 p-0" style="height: 50px;">Blog</a>
+              </div>
+              <div class="col-8 d-flex justify-content-end align-items-end">
+                <p class="text-light small">Copyright © 2024. Pakistan Today. All Rights Reserved.</p>
+              </div>
+            </div>
+            <hr class="border border-1 border-light">
+            <div class="row mt-3">
+              <div class="col ps-4">
+                <h5>Follow us</h5>
+                <i class="fa-brands fa-instagram m-1"></i>
+                <i class="fa-brands fa-x-twitter m-1"></i>
+                <i class="fa-brands fa-facebook m-1"></i>
+                <i class="fa-brands fa-linkedin m-1"></i>
+              </div>
+              <div class="col">
+                <h5>About us</h5>
+                <p class="pe-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at non vero similique quisquam aperiam odit vel est porro perspiciatis quaerat nesciunt voluptate doloribus, rem optio quibusdam dolorum nulla accusantium!</p>
+              </div>
+              <div class="col">
+                <h5>Contact us</h5>
+                <p class="pe-2">
+                  Phone: 123456789
+                  <br>
+                  Email: xyz@example.com
+                  <br>
+                  Address: 123 Street South BS v.5
+                </p>
+              </div>
+            </div>
+            <hr class="border border-1 border-light">
+            <div class="d-flex justify-content-center align-items-center">
+              <pre>Powered by Bootstrap <i class="fa-brands fa-bootstrap"></i></pre>
+            </div>
+          </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a7ad49e4cb.js" crossorigin="anonymous"></script>
+    <script src="prac.js"></script>
+</body>
+</html>
